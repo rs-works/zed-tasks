@@ -1,0 +1,42 @@
+[
+  {
+    "label": "terraform-lookup",
+    "command": "~/.config/zed/tasks/terraform-lookup.sh",
+    "args": ["$ZED_FILE", "$ZED_ROW", "$ZED_COLUMN"],
+    "tags": ["terraform"],
+    "reveal": "never",
+    "hide": "on_success"
+  },
+  {
+    "label": "github-open",
+    "command": "~/.config/zed/tasks/github-open.sh",
+    "args": ["$ZED_FILE"],
+    "tags": ["github"],
+    "reveal": "never",
+    "hide": "on_success"
+  },
+  {
+    "label": "github-open-master",
+    "command": "~/.config/zed/tasks/github-open-master.sh",
+    "args": ["$ZED_FILE"],
+    "tags": ["github"],
+    "reveal": "never",
+    "hide": "on_success"
+  },
+  {
+    "label": "github-history",
+    "command": "~/.config/zed/tasks/github-history.sh",
+    "args": ["$ZED_FILE"],
+    "tags": ["github"],
+    "reveal": "never",
+    "hide": "on_success"
+  },
+  {
+    "label": "github-history-master",
+    "command": "~/.config/zed/tasks/github-history-master.sh",
+    "args": ["$ZED_FILE"],
+    "tags": ["github"],
+    "reveal": "never",
+    "hide": "on_success"
+  }
+]
