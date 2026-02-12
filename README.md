@@ -11,7 +11,7 @@ Zed エディタで使用するカスタムタスクを管理するリポジト�
 1. このリポジトリをクローンします
 
 ```sh
-git clone https://github.com/rsw/zed-tasks.git
+git clone https://github.com/rs-works/zed-tasks.git
 ```
 
 2. スクリプトを Zed の設定ディレクトリにコピーします
