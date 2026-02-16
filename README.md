@@ -36,6 +36,7 @@ cp tasks.json ~/.config/zed/tasks.json
 | `github-history` | 現在開いているファイルのコミット履歴を GitHub 上で表示する（現在のブランチ） |
 | `github-history-master` | 現在開いているファイルのコミット履歴を GitHub 上で表示する（`master` ブランチ固定） |
 | `terraform-lookup` | カーソル位置にある Terraform リソース / データソースの定義を Terraform Registry で開く（`.tf` ファイル上で実行） |
+| `circleci-open` | 現在のブランチに対応する CircleCI パイプライン画面をブラウザで開く |
 
 ## 使い方
 
